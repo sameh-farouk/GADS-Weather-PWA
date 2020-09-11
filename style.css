@@ -1,0 +1,103 @@
+@media only screen and (min-width: 600px) {
+  .city-weather-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+
+  }
+
+}
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-image: url("https://cdn.glitch.com/9e05da28-6193-40b6-80e6-8ef5893889d9%2Fpexels-efdal-yildiz-917494-2.jpg?v=1599781185649");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-style: italic;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+  
+
+}
+.header {
+  padding-bottom: 10px;
+  text-align: center;
+
+
+}
+.footer {
+  text-align: center;
+
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.box {
+opacity:0.7;
+}
+
+.city-card {
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-rows: 30px 50px auto 1fr ;
+    text-align: center;
+
+
+}
+.city-card > div {
+    padding-left: 10px;
+    background-color: grey;
+    color: white;
+
+}
+.city-name {
+    color: blue;
+
+}
+.hide {
+  display: none;
+}
+.remove-city:hover {
+  cursor: pointer;
+} 
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.button:hover {
+  cursor: pointer;
+
+}
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+.remove-city {
+  width: 30px;
+  background-repeat: no-repeat;
+  background-position: 10px 8px;
+  /* background-position: center; */
+  background-color: forestgreen;
+  background-size: 20px;
+  background-image: url("https://cdn.glitch.com/9e05da28-6193-40b6-80e6-8ef5893889d9%2Fquit.svg?v=1599787690847");
+}

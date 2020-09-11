@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#18daf0"/>
+
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/9e05da28-6193-40b6-80e6-8ef5893889d9%2Ffavicon.ico?v=1599678840765"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      href="https://cdn.glitch.com/9e05da28-6193-40b6-80e6-8ef5893889d9%2Fapple-touch-icon-180x180.png?v=1599682612319"
+    />
+    <title>GADS 2020 Weather</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's install javascript file -->
+    <script src="/install.js"></script>
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <!-- import the webpage's javascript file -->
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header box" >
+        <h2>
+          Weather PWA 
+        </h2>
+        <label for="cname" hidden>City Name</label>
+        <input type="text" id="cname" name="cname" placeholder="city name"> 
+
+        <button id="add-city" class="button">Add City</button>
+      </div>
+      <div id="main" class="box" >
+        <div id="card-template" class="city-card hide">
+          <div class="remove-city">
+            </div>
+          <div><h2 class="city-name">
+              city 1
+            </h2>
+          </div>
+          <div><h3 class="description">
+              description
+            </h3>
+            <p class="updated"></p>
+          </div>
+          <div class="city-weather-info">
+            <div>
+              temp
+              <h4 class="temp">
+                19
+              </h4>
+            </div>
+            <div>
+              max/min temperature
+              <h4 class="t-max-min">
+                19
+              </h4>
+            </div>
+            <div>
+              pressure
+              <h4 class="pressure">
+                19
+              </h4>
+            </div>
+            <div>
+              humidity
+              <h4  class="humidity">
+                19
+              </h4>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+      <div class="footer box" >
+        <button class="button" id="install" hidden>
+          install me!
+        </button>
+        <p>
+          GADS 2020 Weather PWA by sameh abouelsaad
+        </p>
+        
+      </div>
+    </div>
+  </body>
+</html>

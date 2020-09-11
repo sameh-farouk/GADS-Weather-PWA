@@ -1,0 +1,27 @@
+{
+ "name": "GADS 2020 Weather",
+  "short_name": "GADS Weather",
+  "icons": [
+    {
+      "src": "https://cdn.glitch.com/9e05da28-6193-40b6-80e6-8ef5893889d9%2Fpwa-512x512.png?v=1599678843012",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.glitch.com/9e05da28-6193-40b6-80e6-8ef5893889d9%2Fpwa-192x192.png?v=1599680650105",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {"src": "https://cdn.glitch.com/9e05da28-6193-40b6-80e6-8ef5893889d9%2Fmaskable_icon.png?v=1599781894997",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "maskable"}
+    
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "scope": "/",
+  "orientation": "portrait",
+  "background_color": "#18daf0",
+  "theme_color": "#18daf0"
+}
