@@ -25,7 +25,7 @@ function add_city_card(data) {
   } °C, ${data["description"]}.`;
   cln.getElementsByClassName("temp")[0].innerText = data["temperature"] + "°C";
   cln.getElementsByClassName("t-max-min")[0].innerText =
-    data["temp_max"] + " / " + data["temp_min"] + "°F";
+    data["temp_max"] + " / " + data["temp_min"] + "°C";
   cln.getElementsByClassName("pressure")[0].innerText = data["pressure"] + "hPa";
   cln.getElementsByClassName("humidity")[0].innerText = data["humidity"] + "%";
   cln.dataset.cname = data["cname"];
