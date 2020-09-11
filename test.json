@@ -1,0 +1,35 @@
+{
+  "coord": { "lon": 8.73, "lat": 46.27 },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 289.62,
+    "feels_like": 291.44,
+    "temp_min": 289.15,
+    "temp_max": 290.15,
+    "pressure": 1015,
+    "humidity": 100
+  },
+  "visibility": 10000,
+  "wind": { "speed": 0.5, "deg": 0 },
+  "clouds": { "all": 40 },
+  "dt": 1599797121,
+  "sys": {
+    "type": 1,
+    "id": 6942,
+    "country": "CH",
+    "sunrise": 1599800310,
+    "sunset": 1599846302
+  },
+  "timezone": 7200,
+  "id": 2659658,
+  "name": "Foo",
+  "cod": 200
+}
